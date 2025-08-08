@@ -1,0 +1,69 @@
+[
+    {
+        "type": "dropdown",
+        "value": "number",
+        "property": "arc-tab-loading-animation",
+        "label": "Animation while the website loads.",
+        "default": 1,
+        "options": [
+            {
+                "label": "No animation",
+                "value": 0
+            },
+            {
+                "label": "Blur (default)",
+                "value": 1
+            },
+            {
+                "label": "More prominent blur",
+                "value": 2
+            },
+            {
+                "label": "Less prominent blur",
+                "value": 3
+            },
+            {
+                "label": "Grayscale with no blur",
+                "value": 4
+            },
+            {
+                "label": "Grayscale with blur",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "dropdown",
+        "value": "number",
+        "property": "arc-tab-switch-animation",
+        "label": "Animation while switching tabs.",
+        "default": 1,
+        "options": [
+            {
+                "label": "No animation",
+                "value": 0
+            },
+            {
+                "label": "Bounce (default)",
+                "value": 1
+            },
+            {
+                "label": "Bouncier",
+                "value": 2
+            },
+            {
+                "label": "More bounce than the default, but less than option 3",
+                "value": 3
+            },
+            {
+                "label": "Smooth crossfade",
+                "value": 4
+            },
+            {
+                "label": "Zoom out effect",
+                "value": 5
+            }
+        ]
+    }
+]
+
