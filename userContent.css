@@ -1,0 +1,20 @@
+@-moz-document url("about:newtab"), url("about:home") {
+  /* --- Hide logo and wordmark --- */
+  .logo,
+  .wordmark {
+    display: none !important;
+  }
+
+  /* --- Top Site styling --- */
+  .top-site-inner {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15) !important;
+    transition: transform 0.25s cubic-bezier(0.28, 1.5, 0.57, 1),
+                box-shadow 0.25s ease !important;
+  }
+
+  .top-site-inner:hover {
+    transform: translateY(-6px) scale(1.15) !important;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25) !important;
+  }
+}
